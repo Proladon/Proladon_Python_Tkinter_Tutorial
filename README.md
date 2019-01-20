@@ -1,6 +1,9 @@
-# Python_Tkinter_Tutorial_EP.2
-https://www.youtube.com/embed/qkxkLLzu3H0
+# Python_Tkinter_Tutorial_Proladon
 
-![image](https://github.com/Proladon/Python_Tkinter_Tutorial_EP.2/blob/master/Tkinter-2.jpg)
+
+Youtube播放清單
+https://www.youtube.com/playlist?list=PLSCgthA1Anie_vHuCOt3hCXN6HIl8Ph8u
+
+![image]()
 
 
