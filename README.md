@@ -1,4 +1,4 @@
-# Python_Tkinter_Tutorial_Proladon
+# Proladon的Python-Tkinter 教學
 
 >Python 快速開發GUI教學
 
