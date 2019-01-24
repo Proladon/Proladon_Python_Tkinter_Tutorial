@@ -1,6 +1,6 @@
 
 #//////////////////////////////////////////////////////////////////////////////#
-#【Proladon】Python GUI - Tkinter EP.6 布局 pack、place、grid
+#【Proladon】Python GUI - Tkinter EP.6 佈局 pack、place、grid
 # Youtube影片: 
 #//////////////////////////////////////////////////////////////////////////////#
 
@@ -9,18 +9,18 @@ from tkinter import*
 win = Tk()
 
 win.title("")
-win.geometry("400x200")
+win.geometry("+800+400")
 
-# # pack 布局
-# btn = Button(text="Button")
-# btn.pack()
+# Grid 網格佈局
+user = Label(text="User ")
+user.grid(row=0, column=0)
 
-# grid 布局
-btn = Button(text="Button")
-btn.grid(row=1, column=0)
+password = Label(text="Password ")
+password.grid(row=1, column=0)
 
-# place 布局
-btn = Button(bg="red")
-btn.place(width=150, height=30, x=30,y=50)
+user_entry = Entry(bg="#323232", font="微軟正黑體 20")
+user_entry.grid(row=0, column=1, rowspan=2)
+
+
 
 win.mainloop()
