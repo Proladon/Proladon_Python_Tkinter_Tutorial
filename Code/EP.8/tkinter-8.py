@@ -5,28 +5,27 @@
 #//////////////////////////////////////////////////////////////////////////////#
 
 from tkinter import*
-
+from tkinter import messagebox as Mesg
 
 
 win = Tk()
 win.geometry("400x400")
 
-def des():
-    fr_1.fr.destroy()
+ck_value = IntVar()
+ck_value2 = IntVar()
+def show_val():
+    print(ck_value)
+    print(ck_value2)
 
-class frame:
-    def __init__(self):
-        self.fr = Frame(win)
-        self.fr.pack(side=LEFT)
+ck = Checkbutton(text="number1", variable=ck_value)
+ck.pack()
 
-fr_1 = frame()
-
-fr_2 = Frame(win)
-fr_2.pack(side=RIGHT)
-
-btn = Button(fr_1, text="Button")
+btn = Button(text="show", command= show_val)
 btn.pack()
-btn = Button(fr_2, text="Button", command= des)
-btn.pack()
+
+
+
+
+
 
 win.mainloop()
