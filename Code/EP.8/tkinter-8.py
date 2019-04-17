@@ -5,8 +5,6 @@
 #//////////////////////////////////////////////////////////////////////////////#
 
 from tkinter import*
-from tkinter import messagebox as Mesg
-
 
 win = Tk()
 win.geometry("400x400+800+300")
